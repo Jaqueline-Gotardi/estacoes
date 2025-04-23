@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Das Estações</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="responsivo.css">
+
+</head>
+
+<body>
+    <main class="estacoes">
+        <div class="estacao selecionado">
+            <picture>
+                <source srcset="./src/imagens/primavera.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/primavera-mobile.png" alt="Estacao Primavera">
+            </picture>
+            <div class="conteudo">
+            <h2 class="nome-estacao">Primavera</h2>
+            <p class="descricao">A primavera é conhecida como a estação das flores. A primavera é considerada por muitos a estação mais bonita do ano. Isso se deve ao fato de que nela ocorre a floração de diversas espécies de plantas. As paisagens enchem-se de cores, deixando ruas, campos, parques e jardins com o aspecto alegre e vívido.</p>
+        </div>
+        </div>
+
+        <div class="estacao">
+            <picture>
+                <source srcset="./src/imagens/verao.jpg" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/verao-mobile.png" alt="Estacao Verão">
+            </picture>
+            <div class="conteudo">
+            <h2 class="nome-estacao">Verão</h2>
+            <p class="descricao">Uma das estações mais esperadas no mundo todo, o verão vem associado ao calor, férias, praia e muita diversão. A estação verão tem como principal característica as altas temperaturas. No verão, ocorrem as chuvas de verão, geralmente no fim da tarde.</p>
+        </div>
+    </div>
+
+        <div class="estacao">
+            <picture>
+                <source srcset="./src/imagens/outono.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/outono-mobile.png" alt="Estacao Outono">
+            </picture>
+            <div class="conteudo">
+            <h2 class="nome-estacao">Outono</h2>
+            <p class="descricao">Uma das principais características do outono é a redução gradativa das temperaturas diárias, que passam de elevadas a mais amenas, antecipando o período frio que vem na sequência. Além das mudanças de temperatura, a estação é marcada pela maior incidência de ventos e pela diminuição da umidade do ar.</p>
+        </div>
+    </div>
+
+        <div class="estacao">
+            <picture>
+                <source srcset="./src/imagens/inverno.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/inverno-mobile.png" alt="Estacao Inverno">
+            </picture>
+            <div class="conteudo">
+            <h2 class="nome-estacao">Inverno</h2>
+            <p class="descricao">Inverno é a mais fria entre as quatro estações do ano. Essa estação é caracterizada pela queda das temperaturas e pela ocorrência de noites mais longas e dias mais curtos. O significado do termo inverno refere-se aos aspectos físicos da estação, como o tempo nublado e frio.</p>
+        </div>
+    </div>
+    </main>
+
+    <ul class="botoes">
+    <li>
+        <button class="botao primavera selecionado">
+            <img src="./src/imagens/icone-primavera.png" alt="Ícone Primavera">
+        </button>
+    </li>
+
+        <li>
+            <button class="botao verao">
+                <img src="./src/imagens/icone-verao.png" alt="Ícone Verão">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao outono" id="codepixie">
+                <img src="./src/imagens/icone-outono.png" alt="Ícone Outono">
+        </button>
+        </li>
+
+        <li>
+            <button class="botao inverno">
+                <img src="./src/imagens/icone-inverno.png" alt="Ícone Inverno">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js "></script>
+    
+</body>
+</html>
