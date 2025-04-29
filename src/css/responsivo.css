@@ -10,22 +10,18 @@
     }
 
     .conteudo{
-        justify-content: relative;
+        justify-content: flex-end;
+        left: 0;
         top: -20%;
-        max-width: 100vw;
-        padding: 20px;
-        text-align: left;
-        display: block;
+        max-width: 100vw; 
+        padding: 30px;
     }
 
     .conteudo .nome-estacao{
         font-size: 30px;
-        margin: 0 0 10px 0;
     }
 
     .conteudo .descricao {
-        font-size: 15px;
-        margin: 0;
         max-width: 500px;
     }
 
@@ -46,7 +42,7 @@
     }
 }
 
-/* @media (max-width: 425px) {
+@media (max-width: 425px) {
     main .estacao .imagem {
         height: auto;
     }
@@ -68,39 +64,18 @@
     .botoes .botao img {
         max-width: 50px;
     }
+} 
+
+/* @media (max-width: 424px) {
+    main .conteudo .descricao p {
+        top: 10px;
+        left: -35px;
+    }
 } */
 
-    @media (max-width: 480px) {
-        .descricao {
-            display: block;
-            text-align: left;
-        }
+@media (max-width: 424px) {
+    .descricao p {
+        top: 0px;
+        left: -45px;
     }
-
-    @media (max-width: 480px) {
-        .conteudo {
-            padding: 15px;
-            top: -10%;
-        }
-    
-        .conteudo .nome-estacao {
-            font-size: 20px;
-        }
-    
-        .conteudo .descricao {
-            font-size: 14px;
-        }
-    
-        .botoes {
-            padding: 20px;
-        }
-    
-        .botoes .botao {
-            width: 50px;
-            height: 50px;
-        }
-    
-        .botoes .botao img {
-            max-width: 50px;
-        }
-    }
+}
