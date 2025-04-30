@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1450px) and (min-width: 768px) {
     main::after{
         background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
         width: 100vw;
@@ -42,40 +42,29 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) and (min-width:425px) {
     main .estacao .imagem {
         height: auto;
     }
 
     .conteudo{
-        top: -20%;
+        top: 0%;
+        left: 15px;
+        font-weight: 500;
     } 
 
     .botoes {
         padding: 20px;
-        top: -10%;
+        top: 0%;
+        left: 70%;
     }
 
     .botoes .botao {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .botoes .botao img {
-        max-width: 50px;
+        max-width: 60px;
     }
 } 
-
-/* @media (max-width: 424px) {
-    main .conteudo .descricao p {
-        top: 10px;
-        left: -35px;
-    }
-} */
-
-@media (max-width: 424px) {
-    .descricao p {
-        top: 0px;
-        left: -45px;
-    }
-}
