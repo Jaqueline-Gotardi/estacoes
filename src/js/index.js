@@ -1,5 +1,5 @@
 /* 
-  O que precisamos fazer? - quando clicar no botão do personagem na lista temos que marcar o botão como selecionado e mostrar o personagem correspondente
+  O que precisamos fazer? - quando clicar no botão do personagem na lista temos que marcar o botão como selecionado e mostrar o personagem correspondente 
 
     OBJETIVO 1 - quando clicar no botão do personagem na lista, marcar o botao como selecionado 
         passo 1 - pegar os botões no JS pra poder verificar quando o usuário clicar em cima de um deles

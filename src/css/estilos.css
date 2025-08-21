@@ -2,7 +2,7 @@ body {
     background-color: #000000;
     overflow: hidden;
 }
-
+ 
 main::after {
     content: "";
     position: fixed;
