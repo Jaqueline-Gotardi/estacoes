@@ -2,6 +2,8 @@
 
 Projeto web desenvolvido para representar as quatro estações do ano com uma apresentação visual agradável, leve e colorida. Este projeto faz parte da minha jornada de aprendizado em desenvolvimento front-end e foi criado com foco em organização de layout, uso de imagens e estilos personalizados via CSS.
 
+![preview](src/imagens/tela-responsive.png)
+
 ## 🔗 Acesse o Projeto
 
 👉 [Clique aqui para visualizar o site](https://jaqueline-gotardi.github.io/estacoes/)
