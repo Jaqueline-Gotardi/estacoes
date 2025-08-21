@@ -30,9 +30,7 @@ O objetivo principal deste projeto é praticar:
 - Uso de imagens decorativas com função comunicativa
 - Publicação e versionamento com GitHub
 
-## 🚀 Melhorias Futuras
+## 🚀 Futuras idéias
 
-- Adicionar responsividade para dispositivos móveis
 - Inserir animações leves (ex: transições ao passar o mouse)
-- Criar uma navegação entre estações via botões ou menus
 - Incluir um footer com informações extras
